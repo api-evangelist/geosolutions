@@ -78,3 +78,5 @@ apis:
     url: https://maps.geo-solutions.it/geoserver/ogc/features/v1
   - type: Collections
     url: https://maps.geo-solutions.it/geoserver/ogc/features/v1/collections?f=json
+  - type: ConformanceEndpoint
+    url: https://maps.geo-solutions.it/geoserver/ogc/features/v1/conformance
