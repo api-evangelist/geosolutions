@@ -1,5 +1,5 @@
 aid: geosolutions
-name: GeoSolutions di Giannecchini Simone & C. s.a.s.
+name: GeoSolutions
 type: Index
 deliveryModel:
   model: unknown
@@ -80,3 +80,4 @@ apis:
     url: https://maps.geo-solutions.it/geoserver/ogc/features/v1/collections?f=json
   - type: ConformanceEndpoint
     url: https://maps.geo-solutions.it/geoserver/ogc/features/v1/conformance
+x-legal-name: GeoSolutions di Giannecchini Simone & C. s.a.s.
