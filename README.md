@@ -1,4 +1,4 @@
-# GeoSolutions di Giannecchini Simone & C. s.a.s.
+# GeoSolutions
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -66,21 +66,72 @@
 
 GeoSolutions is an Italian company and one of the principal maintainers of the open-source geospatial server stack — GeoServer, GeoNetwork, MapStore and GeoNode. It sells enterprise support, deployment and custom development around those projects. Its public demonstration server is a reference OGC deployment, serving classic OGC web services alongside a modern OGC API - Features endpoint.
 
-Profiled 2026-08-20 as part of the [OGC](../ogc/) standards-body pass — this organization is an
-**OGC Explorer member** (Commercial, Italy), found in OGC's own
-active-member roster and confirmed to serve a live OGC surface on its own host.
+**Areas:** Geospatial · OGC · WMS · WFS · Open Access · GIS
 
-## APIs
+## GeoSolutions on APIs.io
 
-| aid | name | base | contract |
-|---|---|---|---|
-| `geosolutions:ogc-web-services` | GeoSolutions OGC Web Services (WMS / WFS) | https://maps.geo-solutions.it/geoserver/ows | 2 GetCapabilities |
-| `geosolutions:ogc-api-features` | GeoSolutions OGC API - Features | https://maps.geo-solutions.it/geoserver/ogc/features/v1 | 0 GetCapabilities |
+Everything profiled for GeoSolutions is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/geosolutions/](https://apis.io/providers/geosolutions/)** — or go straight to one of the APIs or properties below.
 
-## Provenance
+### APIs (2)
 
-Every GetCapabilities document under `openapi/` was retrieved **anonymously, with HTTP 200, on
-2026-08-20** and is stored verbatim — it is the machine-readable contract for a classic OGC service,
-which has no OpenAPI. Nothing here is derived from documentation.
+- [GeoSolutions OGC Web Services (WMS / WFS)](https://apis.io/apis/geosolutions/ogc-web-services/) — OGC-standard web services served from a GeoServer instance. Verified anonymously on 2026-08-20: a WMS 1.3.0 GetCapabilities document declaring 39 layers and…
+- [GeoSolutions OGC API - Features](https://apis.io/apis/geosolutions/ogc-api-features/) — A modern OGC API - Features endpoint alongside the classic OGC web services. Verified anonymously on 2026-08-20: /collections?f=json returned HTTP 200 with…
 
-Membership facts come from `https://portal.ogc.org/services/srv_active_members_csv_new.php`.
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://maps.geo-solutions.it/)
+
+## API Evangelist rating
+
+**Kin Score 5.3** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 57.1 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 9.5 |
+| Access clarity | 0.0 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 0.0** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/geosolutions/](https://apis.io/providers/geosolutions/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for GeoSolutions: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/geosolutions/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
